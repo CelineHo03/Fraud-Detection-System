@@ -577,7 +577,7 @@ def show_metropolitan_analysis(predictions, fraud_probs, risk_scores, fraud_pred
             color_continuous_scale='Oranges'
         )
         fig.update_xaxes(tickangle=45)
-        fig.update_xyxes(tickformat='.2%')
+        fig.update_yaxes(tickformat='.2%')
         st.plotly_chart(fig, use_container_width=True)
     
     # Metro area comparison table
